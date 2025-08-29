@@ -69,8 +69,9 @@
     /* About Section */
     .about {
       padding: 60px 20px;
-      background: #f4f4f4;
+      background: url(./images/about-background.jpg);
       text-align: center;
+      color: white
     }
 
     .about h2 {
@@ -98,6 +99,36 @@
       transform: scale(1.1);
     }
 
+    hr {
+      border: 5px solid #007bff;
+      margin: 10px auto;
+    }
+
+    #html-badge{
+      background-color: #e44d26;
+    }
+  
+
+    #css-badge{
+      background-color: #264de4;
+    }
+
+    #js-badge{
+      background-color: #f7df1e;
+    }
+
+    #sql-badge{
+      background-color: #e44d26;
+    }
+
+    #php-badge{
+      background-color: #4f5b93;
+    }
+
+    #react-badge{
+      background-color: #61dafb;
+    }
+
     /* Portfolio Section same applies with Other Projects Section */
     .portfolio {
       padding: 60px 20px;
@@ -123,6 +154,12 @@
       transition: transform 0.3s, box-shadow 0.3s;
       opacity: 0;
       transform: translateY(40px);
+      border: 2px solid #ddd;
+    }
+
+    .project:hover{
+      transform: scale(1.10);
+      box-shadow: 4px 8px 20px rgba(255,0,0,0.2);
     }
 
     .project img {
@@ -160,4 +197,5 @@
         padding: 10px 10px;   
         font-weight: bold;
         border-radius: 5px;
+        margin-bottom: 10px;
     }
